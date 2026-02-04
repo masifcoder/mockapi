@@ -38,8 +38,6 @@ function ProductsPage() {
         setIsLoading(false);
         getAllProducts();
       })
-
-
   }
 
   useEffect(() => {
