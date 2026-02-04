@@ -85,7 +85,7 @@ function ProductsPage() {
                     <td>${product.price}</td>
                     <td>{product.description}</td>
                     <td>
-                      <Link to='/edit'><FilePenLine size={18} className='me-1' /></Link> 
+                      <Link to={`/update/${product.id}`}><FilePenLine size={18} className='me-1' /></Link> 
                       <Trash onClick={() => deleteProduct(product.id) }   size={36} color='red' />
                     </td>
                   </tr>
